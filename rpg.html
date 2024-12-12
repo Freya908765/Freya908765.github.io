@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Freya - Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+  img {
+    border: 2px solid #000000;
+  }
+  </style>
+</head>
+
+<body>
+  <script src="scriptR.js"></script>
+
+  <div id="rMain">
+
+    <div id="navbar">
+      <a href= "index.html">Home</a>
+      <a href= "NEA.html">Cliffhanger</a>
+      <a href= "rpg.html">Crown of Shadows</a>
+      <a href= "notes.html">Notes</a>
+      <a href= "games.html">Games</a>
+    </div>
+
+    <div id="name">
+      <center></cemter><h1>Crown of Shadows</h1></center>
+    </div>
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertextCOS">1 / 8</div>
+    <img src="screenshot1.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">Molly the Cat</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">2 / 8</div>
+    <img src="screenshot2.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">Town Centre</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">3 / 8</div>
+    <img src="screenshot3.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">The Mountain Caves</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">4 / 8</div>
+    <img src="screenshot4.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">The Trail</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">5 / 8</div>
+    <img src="screenshot5.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">Blinded</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">6 / 8</div>
+    <img src="screenshot6.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">Meeting Lillith</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">7 / 8</div>
+    <img src="screenshot7.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">The Village</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertextCOS">8 / 8</div>
+    <img src="screenshot8.png" width=1000px height="730px">
+      </br></br></br></br>
+    <div class="text">Enraged</div>
+  </div>
+  
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+<br><br>
+<div id="text">
+  <div id="space"></div>
+  <div id="space"></div>
+</div>
+
+  </div>  
+
+  <div id="Rbottom">
+    <div id="COS"> <center>
+      <p><i>Crown of Shadows</i> is a prototype RPG made in RPG Maker MV. The goal of this project was to <br>practice creating 2D environments 
+        and levels while also trying to work on narrative writing. <br>This project is unfinished but still contains many explorable areas such 
+        as the Village, Mountain Caves, Forest Trail, <br>as well many buildings which can be entered and explored.
+        <br><br>
+        One of my main interests in game design is level design so this project was an opportunity to practice<br> designing levels which allow the player to explore
+        while still guiding them towards an endpoint. I designed all<br> of the maps myself using RPG Maker's assets, which allowed me to create a variety of levels
+        of different sizes and<br> environments. The game also>contains a very bare narrative which I would have liked to explore more if I had the time,<br> as the player
+        interacts with NPCs, they can learn pieces of backstory about the characters.
+        <br><br>
+        Using the database system which RPG Maker MV provides, I created a multitude of enemies (Such as bats, <br>spiders, bandits, etc.) each with different amounts
+        of health and defense. I also created custom classes<br> (Cleric, Fighter, Bard, Barbarian) inspired by the classes from Dungeons and Dragons. These classes all
+        have <br>custom spells and actions which progessively unlock as the player levels up by gainging XP. Additionally, each of the <br>classes' stats progress differently.
+        For example, a barbarian will have a greater maximum health than a cleric. <br>It was important for me to have varied character progression to ensure that each of the
+        party <br>members are unique and interesting.
+      </p> </center>
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <center><h1>The Village</h1>
+    <br>
+    <p>The Village is the main area of the game, containing multiple buildings which have explorable interiors<br> such as the Inn, Store 
+      and various houses. The aim of the Village is to provide the player with a large, open<br> area to explore at their own pace. As the 
+      player explores, they can speak to all of the NPCs and unlock quests from a<br> few of them. I designed the layout of the village to try and encourage 
+      the player to see most of the area. <br>For example, the player starts the game in one of the houses in the top right corner of the map, 
+      they are then encouraged to <br>follow the stone path which is designed to pass most of the buildddings.</p><br>
+  </center>
+    <div class="gallery">
+      <img src="cos/2.png">
+      <img src="cos/9.png">
+      <img src="cos/12.png">
+      <img src="cos/15.png">
+      <img src="cos/27.png">
+      <img src="cos/29.png">
+    </div>
+
+    <br><br><br>
+    <center><h1>Forest Trail</h1>
+    <br>
+    <p>The trail acts as a hub of access to other areas. This is the first location the player will enter upon <br>
+      leaving the village and acts as a simple transition area to help pace the game. From here, the player can <br>
+      access the caves and the village with additional paths which would have led to more areas if I had the time to <br>
+      implement them. I intentionally made the trail free of enemies and NPCs to slow down the pace of the game <br>
+      before it starts to pick back up when the player enters the next area.
+    </p>
+    </center>
+    <br>
+    <div class="gallery">
+      <img src="cos/8.png">
+      <img src="cos/11.png">
+      <img src="cos/21.png">
+      <img src="cos/25.png">
+      <img src="cos/23.png">
+      <img src="cos/30.png">
+    </div>
+
+    <br><br><br>
+    <center><h1>Mountain Caves</h1>
+    <br>
+    <p> The Mountain Caves is the most combat-heavy area of the game. Upon entering, the player can explore a series of <br>
+      caverns and tunnels while fighting enemies. The player will randomly encounter enemies as they explore which encourages<br> 
+      them to experience the battle mechanics that the RPG has to offer. This also allows them to level up the characters and <br>
+      unlock new abilities before the boss battle at the end of the area. There are also chests and other items to find and loot <br>
+      throughout the caves, this is to encourage exploration. <br><br>
+      When the player reaches the end of the caves, they enter an area <br>
+      filled with bandits and have to complete a boss fight. I made the boss to be more powerful than the other bandits to ensure<br>
+      that it is challenging but stil possible. When the player defeats the boss, they have the option to recruit a new character <br>
+      who had been captured by the bandits, which could lead into a side quest covering her capture.
+    </p>
+    </center>
+    <br>
+    <div class="gallery">
+      <img src="cos/4.png">
+      <img src="cos/22.png">
+      <img src="cos/26.png">
+      <img src="cos/32.png">
+      <img src="cos/34.png">
+      <img src="cos/33.png">
+    </div>
+
+
+    <br><br><br>
+    <center><h1>Interiors</h1>
+    <br>
+    <p> Every building in the game can be entered and explored, including the many houses as well as the Inn, Church and Store.<br>
+      I wanted each building to have a visually interesting interior while also adding more context and life to the game. For example,<br>
+      the player can enter the shop and purchase helpful items such as healing potions which will aid them in battle. Addittionally,<br>
+      the player can enter the church and make an offering to unlock damage buffs, or they can explore the basement to find and recruit<br>
+      one of the potential party members.<br><br>
+      I think that allowing the player to explore the buildings makes the game feel larger and more engagingm, which is crucial for the<br>
+      user experience. Furthermore, rewarding this exploration with items, buffs and new quests helps to make the player feel like exploring<br>
+      is worth their time and is not pointless.
+    </p><br>
+  </center>
+    <div class="gallery">
+      <img src="cos/3.png">
+      <img src="cos/5.png">
+      <img src="cos/7.png">
+      <img src="cos/10.png">
+      <img src="cos/14.png">
+      <img src="cos/28.png">
+    </div>
+
+  </div> 
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</html>

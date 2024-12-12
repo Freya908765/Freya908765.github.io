@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Freya - Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 7px;
+  
+    padding-top: 15px;
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .gallery img {
+    width: 250px;
+    height: 331px;
+    padding: 5px;
+    border: 2px solid #000000;
+    background-color: #fff;
+  
+    object-fit: contain;
+    position: relative;
+  }
+  
+  .gallery img:hover {
+    z-index: 9;
+    transform: scale(1.04);
+    transition: transform ease 0.15s;
+  }
+
+  img {
+    border: 2px solid #fff;
+  }
+
+  img:hover {
+    z-index: 9;
+    transform: scale(1.02);
+    transition: transform ease 0.2s;
+  }
+  </style>
+</head>
+
+<body>
+  <script src="games.js"></script>
+
+  <div id="gMain">
+
+    <div id="navbar">
+      <a href= "index.html">Home</a>
+      <a href= "NEA.html">Cliffhanger</a>
+      <a href= "rpg.html">Crown of Shadows</a>
+      <a href= "notes.html">Notes</a>
+      <a href= "games.html">Games</a>
+    </div>
+
+    <div id="name">
+    <center>
+      <h1>GAMES</h1>
+    </center>
+    </div>
+
+    <div id="game1">
+      <div id="asteroids">
+        <center><a href="asteroids.html"><img src="asteroids.png" width=500px height="300px"></a></center>
+      </div>
+      <div id="breakout">
+        <center><a href="breakout.html"><img src="breakout.png" width=500px height="300px"></a></center>
+      </div>
+    </div>
+
+  </div>  
+  
+  <div id="bottom">
+  </div> 
+
+</html>

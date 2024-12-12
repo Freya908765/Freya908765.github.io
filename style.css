@@ -1,0 +1,443 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: joystix;
+    letter-spacing: 1px;
+  }
+  
+  body,p,h1,h2,h3 {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+  }
+
+  h1 {
+    letter-spacing: 2px;
+  }
+
+  p, li, ul {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  @font-face {
+    font-family: joystix;
+    src: url(upheavtt.ttf);
+  }
+  
+  #main {
+    height: 1400px;
+    background-image: url('tlou_background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  #cMain {
+    height: 1500px;
+    background-image: url('uncharted_background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  #nMain {
+    height: 1100px;
+    background-image: url('deathstranding_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  #gMain {
+    height: 1500px;
+    background-image: url('resi4_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  #game1 {
+    display: flex;
+  }
+
+  #asteroids {
+    flex: 1;
+  }
+
+  #breakout {
+    flex: 1;
+  }
+
+  #rMain {
+    height: 1250px;
+    background-image: url('bg3_background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  #noMain {
+    height: 1500px;
+    background-image: url('uncharted_background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  #navbar{
+    overflow: hidden;
+    top: 0px;
+    padding-left: 10px;
+  }
+  
+  #navbar a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: auto;
+    padding: 15px;
+    text-decoration: none;
+    font-family: joystix;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  
+  #navbar a:hover{
+    z-index: 9;
+    transform: scale(0.95);
+    transition: transform ease 0.15s;
+    color: #c4c4c4;
+  }
+  
+  #name {
+    color: #fff;
+    margin: 100px;
+    font-family: joystix;
+    font-size: 50px;
+    letter-spacing: 5px;
+
+  }
+  
+  #bottom {
+    height: 600px;
+    background-color: #000;
+  }
+
+  #cbottom {
+    height: 6000px;
+    background-color: #000;
+  }
+
+  #cbottom img {
+    border-color: #fff;
+  }
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container3 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container4 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides2 {
+  display: none;
+}
+
+.mySlides3 {
+  display: none;
+}
+
+.mySlides4 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev3, .next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev4, .next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next4 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev3:hover, .next3:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev4:hover, .next4:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.numbertextCOS {
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot4 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #2c2c2c;
+}
+
+.active, .dot2:hover {
+  background-color: #2c2c2c;
+}
+
+.active, .dot3:hover {
+  background-color: #2c2c2c;
+}
+
+.active, .dot4:hover {
+  background-color: #2c2c2c;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+#text {
+  display: flex;
+  font-size: 10px;
+}
+
+#space {
+  flex: 1;
+}
+
+#textBox {
+  color: #fff;
+  flex: 4;
+  font-size: 25px;
+}
+
+#COS {
+  color: #fff;
+  flex: 4;
+  font-size: 25px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+
+  padding-top: 15px;
+  max-width: 100px;
+  margin-left: 8%;
+}
+
+.gallery img {
+  width: 520px;
+  height: 390px;
+  padding: 1px;
+
+  border: 1px solid #ffffff;
+  background-color: #000000;
+
+  object-fit: contain;
+  position: relative;
+}
+
+.gallery img:hover {
+  z-index: 9;
+  transform: scale(1.0);
+
+  transition: transform ease 0.15s;
+}
+
+#Rbottom {
+  height: 4900px;
+  background-color: #000;
+  color: #fff;
+}
+
+#NEA {
+  display: flex;
+}
+
+#NEA2 {
+  display: flex;
+}
+
