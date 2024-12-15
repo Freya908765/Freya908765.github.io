@@ -130,7 +130,7 @@ html {
   }
 
   #cbottom img {
-    border-color: #fff;
+    border-color: #000000;
   }
 
   * {box-sizing:border-box}
@@ -408,6 +408,17 @@ html {
   margin-left: 8%;
 }
 
+.gallery2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+
+  padding-top: 15px;
+  max-width: 100px;
+  margin-left: 8%;
+}
+
 .gallery img {
   width: 520px;
   height: 390px;
@@ -420,11 +431,23 @@ html {
   position: relative;
 }
 
-.gallery img:hover {
-  z-index: 9;
-  transform: scale(1.0);
+.gallery2 img {
+  width: 520px;
+  height: 294px;
+  padding: 1px;
 
-  transition: transform ease 0.15s;
+  border: 1px solid #000000;
+  background-color: #000000;
+
+  object-fit: contain;
+  position: relative;
+}
+
+.gallery2 img:hover {
+  z-index: 9;
+  transform: scale(1.1);
+
+  transition: transform ease 0.3s;
 }
 
 #Rbottom {
