@@ -65,10 +65,6 @@ html {
     flex: 1;
   }
 
-  #breakout {
-    flex: 1;
-  }
-
   #rMain {
     height: 1250px;
     background-image: url('bg3_background.png');
@@ -463,4 +459,3 @@ html {
 #NEA2 {
   display: flex;
 }
-
